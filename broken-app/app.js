@@ -2,17 +2,26 @@ const express = require('express');
 let axios = require('axios');
 var app = express();
 
-app.post('/', function(req, res, next) {
-  try {
-    let results = req.body.developers.map(async d => {
-      return await axios.get(`https://api.github.com/users/${d}`);
-    });
-    let out = results.map(r => ({ name: r.data.name, bio: r.data.bio }));
+app.use(express.json())
 
-    return res.send(JSON.stringify(out));
-  } catch {
-    next(err);
-  }
+app.post('/', async function(req, res) {
+  const devInfo = req.body.developers.map(async (dev) => {
+    try {
+      const resp = await axios.get(`https://api.github.com/users/${dev}`);
+      if (resp.status !== 404) {
+        return {
+          bio: resp.data.bio,
+          name: resp.data.name,
+        };
+      }
+      
+    } catch {
+      return {message: "Username not found"};
+    }
+  });
+  Promise.all(devInfo).then((data) => {
+    return res.status(200).json(data);
+  })
 });
 
 app.listen(3000);
