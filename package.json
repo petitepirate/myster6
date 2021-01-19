@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petitepirate/myster6.git"
+    "url": "git+https://github.com/petitepirate/mystery6.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/petitepirate/myster6/issues"
+    "url": "https://github.com/petitepirate/mystery6/issues"
   },
-  "homepage": "https://github.com/petitepirate/myster6#readme"
+  "homepage": "https://github.com/petitepirate/mystery6#readme"
 }
