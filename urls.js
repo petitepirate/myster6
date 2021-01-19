@@ -1,7 +1,5 @@
 let axios = require("axios");
 const fs = require("fs");
-const { request } = require("http");
-const { url } = require("inspector");
 
 function getUrls(file) {
   fs.readFile(file, "utf8", function (err, data) {

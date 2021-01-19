@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://www.postgresql.org/" />
   <meta property="og:type" content="article" />
   <meta property="article:author" content="PostgreSQL Global Development Group" />
-  <meta property="article:published_time" content="2021-01-17T18:09:38.429666" />
+  <meta property="article:published_time" content="2021-01-19T20:46:41.854027" />
   <meta property="og:image" content="https://www.postgresql.org/media/img/about/press/elephant.png" />
   <meta property="og:title" content="PostgreSQL" />
   <meta property="og:description" content="The world&#39;s most advanced open source database." />
@@ -306,37 +306,37 @@
         <ul class="divided">
           
             <li>
-              <h3><a href="/about/news/postgresql-weekly-news-january-10-2021-2147/">PostgreSQL Weekly News - January 10, 2021</a></h3>
+              <h3><a href="/about/news/griddb-fdw-13-released-2149/">GridDB fdw 1.3 released</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2021-01-11 by PWN</li>
+                <li><i class="far fa-clock"></i>&nbsp;2021-01-19 by Toshiba</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/pg_back-110-released-2146/">pg_back 1.10 released</a></h3>
+              <h3><a href="/about/news/sqlite-fdw-131-released-2148/">SQLite fdw 1.3.1 released</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2021-01-09 by Nicolas Thauvin</li>
+                <li><i class="far fa-clock"></i>&nbsp;2021-01-19 by Toshiba</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/pgagroal-110-2144/">pgagroal 1.1.0</a></h3>
+              <h3><a href="/about/news/influxdb-fdw-03-released-2150/">InfluxDB fdw 0.3 released</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2021-01-05 by Red Hat</li>
+                <li><i class="far fa-clock"></i>&nbsp;2021-01-19 by Toshiba</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/veil2-092-beta-2142/">Veil2 0.9.2 beta</a></h3>
+              <h3><a href="/about/news/postgresql-weekly-news-january-17-2021-2152/">PostgreSQL Weekly News - January 17, 2021</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2021-01-03 by Veil2</li>
+                <li><i class="far fa-clock"></i>&nbsp;2021-01-18 by PWN</li>
               </ul>
             </li>
           
             <li>
-              <h3><a href="/about/news/postgresql-weekly-news-january-3-2021-2143/">PostgreSQL Weekly News - January  3, 2021</a></h3>
+              <h3><a href="/about/news/dbconvert-studio-20-released-database-migration-and-synchronization-2151/">DBConvert Studio 2.0 released. Database migration and synchronization</a></h3>
               <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2021-01-03 by PWN</li>
+                <li><i class="far fa-clock"></i>&nbsp;2021-01-17 by Slotix s.r.o.</li>
               </ul>
             </li>
           
@@ -357,6 +357,56 @@
    <!-- First Row Planet PostgreSQL -->
    <div class="row">
      <!-- First Column First Row Planet PostgreSQL -->
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/4_7"> Tips and tricks to kick-start the Postgres year 2021</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Kaarel Moppel</li>
+              <li><i class="far fa-clock"></i>&nbsp;2021-01-19</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/4_5"> Marc Linster</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Andreas &#39;ads&#39; Scherbaum</li>
+              <li><i class="far fa-clock"></i>&nbsp;2021-01-18</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/4_2"> Waiting for PostgreSQL 14 – Add pg_stat_database counters for sessions </a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Hubert &#39;depesz&#39; Lubaczewski</li>
+              <li><i class="far fa-clock"></i>&nbsp;2021-01-18</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/4_3"> MVCC in PostgreSQL — 6. Vacuum</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Egor Rogov</li>
+              <li><i class="far fa-clock"></i>&nbsp;2021-01-18</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/4_4"> PostgreSQL Literate Programming with GNU Emacs</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Luca Ferrari</li>
+              <li><i class="far fa-clock"></i>&nbsp;2021-01-18</li>
+            </ul>
+          </div>
+        </div>
       
         <div class="col-md-4">
           <div class="text-center">
@@ -394,56 +444,6 @@
             <ul class="meta">
               <li><i class="far fa-comments"></i>&nbsp;Hubert &#39;depesz&#39; Lubaczewski</li>
               <li><i class="far fa-clock"></i>&nbsp;2021-01-15</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/4-T"> pgenv special keywords: earliest and latest</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Luca Ferrari</li>
-              <li><i class="far fa-clock"></i>&nbsp;2021-01-14</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/4-D"> FOSDEM PostgreSQL devroom video</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Federico Campoli</li>
-              <li><i class="far fa-clock"></i>&nbsp;2021-01-13</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/4-C"> Waiting for PostgreSQL 14 – Add idle_session_timeout.</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Hubert &#39;depesz&#39; Lubaczewski</li>
-              <li><i class="far fa-clock"></i>&nbsp;2021-01-12</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/4-B"> R Predictive Analytics in Data Science Work using PostgreSQL</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Steven Pousty</li>
-              <li><i class="far fa-clock"></i>&nbsp;2021-01-12</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/4-A"> Waiting for PostgreSQL 14 – Report progress of COPY commands</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Hubert &#39;depesz&#39; Lubaczewski</li>
-              <li><i class="far fa-clock"></i>&nbsp;2021-01-12</li>
             </ul>
           </div>
         </div>

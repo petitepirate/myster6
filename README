@@ -1,1 +1,9 @@
 Springboard Unit 34 - Assessment 
+
+Broken app can be run by:
+nodemon app.js
+Insomnia POST to route /
+{ "developers": ["joelburton", "elie", "petitepirate"] }
+
+URLs exercise run:
+node urls.js urls.txt

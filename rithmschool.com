@@ -23,7 +23,7 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-eb41ae8905bdd2b439d03b1628aaa345c177848bb8e6c36ea8c5a56cf03ef757.ico" />
   <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="f21srUiIiqnQorA1/JM8mhTIFWYspI8yUfgPz42L76v9JhSznl0fc+vNmftZRlJfife1exrvqNyOdGGisacSkg==" />
+<meta name="csrf-token" content="kT7qPH27YszamSdFzd9FVyaq233ZhanWcYjYS9q5inZ+8SX06yAHN4cetVUx1a4cn1O9AKWUCKALybAt3JrtZw==" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -177,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <video autoplay="autoplay" muted="muted" loop="loop" poster="/assets/rithm_home-75d8842c160fa9195f2e3270def2aebbd2ff8682dee25360844ad43343713b77.jpg"><source src="/assets/rithm_home-ef8011ecfc5ccc5fa5c45412b4581016d508f9d47bda60cc308b88e725778238.mp4" /><source src="/assets/rithm_home-b7a7c17c6d5fb0e8e70d46e2f6449299f8f23411445cb90f9ca52047d3e097d3.webm" /></video>
         <div class="header-text">
           <h1 class="col-xs-12 col-md-12 heading">{&nbsp;Become a Software Engineer. Online learning, personalized.&nbsp;}</h1>
-          <h4 class="text-muted">Next courses start February 15th and April 12th Online.</h4>
+          <h4 class="text-muted">Next courses start February 15th and April 5th Online.</h4>
         </div>
     </div>
 </header>
@@ -469,7 +469,7 @@ window.ChatraSetup = {
         <div class="col-md-3 col-sm-4 text-center">
             <a style="padding:0;" class="footer-logo" href="/">
               <img class="logo" width="120" height="58" alt="rithm school company logo" title="Rithm School Logo" src="/assets/logos/rithm_logo-0bbe0cba0becc168bb1ed46540bd26d6921d9f5194372128512268c203687780.svg" />
-</a>            <span><a class="text-muted faq-url" href="/cdn-cgi/l/email-protection#21484f474e61534855494c5242494e4e4d0f424e4c">info@rithmschool.com</a></span>
+</a>            <span><a class="text-muted faq-url" href="/cdn-cgi/l/email-protection#6e070008012e1c071a06031d0d06010102400d0103">info@rithmschool.com</a></span>
         </div>
         <div class="col-md-6 col-sm-8">
           <div class="text-center email_signup_heading">
@@ -508,7 +508,7 @@ window.ChatraSetup = {
 <div class="thank_you"></div>
 <div class="container">
   <form id="unlock-form" class="card mfp-hide white-popup-block" >
-<input type="hidden" name="authenticity_token" id="authenticity_token" value="w3UY2KA7ogFbQxpIDQlBREijLbKkE+SmgIA0oC+4B+dBPmDGdu4322AsM4ao3C+B1ZyNr5JYw0hfDFrNE5T63g==" />  <div id="modal-email-known" style="display:none;">
+<input type="hidden" name="authenticity_token" id="authenticity_token" value="cWGLTMdvYLjdDHa7jeOeyJQ36Pn6rZoADLhK4TW3OkOerkSEUfQFQ4CL5Ktx6XWDLc6OhIa8O3Z2+SKHM5RdUg==" />  <div id="modal-email-known" style="display:none;">
     <h1 class="text-center">Signed up already? Please enter your email to confirm.</h1>
     <div class="email-errors text-center"></div>
     <hr class="modal--bar">
