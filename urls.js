@@ -7,7 +7,7 @@ async function getUrls(file) {
       console.error("Invalid document, please try another");
       process.exit(1);
     }
-    getUrlData(data.split(/[ \r\n]+/));
+    await getUrlData(data.split(/[ \r\n]+/));
   });
 }
 
