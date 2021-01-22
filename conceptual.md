@@ -12,7 +12,7 @@ Answer the following questions below:
 
 #### What are the differences between an async function and a regular function?
 * The only difference between the two functions is that asyncFn is declared with the async keyword. This means that Javascript will make sure that the asnycFn will return with a Promise (either resolved or rejected) even if an error occured in it  
-
+* On a lower level, regular functions block the event loop, but async functions don't until you await them.
 #### What is the difference between Node.js and Express.js?
 * Node.js is a platform for building applications which are server-side event-driven and made using JavaScript.
 * Express.js is a framework based on Node.js for which is used for building web-application.
