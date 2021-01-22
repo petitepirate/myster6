@@ -1,7 +1,7 @@
 let axios = require("axios");
 const fs = require("fs");
 
-function getUrls(file) {
+async function getUrls(file) {
   fs.readFile(file, "utf8", function (err, data) {
     if (err) {
       console.error("Invalid document, please try another");
